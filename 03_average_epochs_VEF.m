@@ -1,8 +1,6 @@
-% === INITIAL SETUP ===
+
 restoredefaultpath;
 rehash toolboxcache;
-
-% === ADD SPM PATH ===
 addpath('/spm_25.01.02/spm');
 spm('defaults','eeg');
 warning('off','MATLAB:dispatcher:nameNonexistent'); % suppress missing subfolder warnings
