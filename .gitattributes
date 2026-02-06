@@ -1,2 +1,2 @@
-*.m linguist-language=MATLAB
-*.py linguist-language=Python
+*.m linguist-language=MATLAB linguist-detectable=true
+*.py linguist-language=Python linguist-detectable=true
