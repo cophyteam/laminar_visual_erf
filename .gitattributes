@@ -1,3 +1,4 @@
-*.m diff=MATLAB 
-*.py diff=Python
+*.m linguist-language=MATLAB linguist-detectable=true diff=MATLAB
+*.py linguist-language=Python linguist-detectable=true diff=Python
 *.md diff=markdown
+*.ipynb linguist-detectable=false
