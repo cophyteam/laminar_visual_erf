@@ -1,8 +1,8 @@
 
-% RUN VBA Bayesian modle selection random effect analysis 
+
 
 load('aligned_data_ERF_F.mat')
-
+% RUN VBA Bayesian modle selection random effect analysis 
 F_con = cat(1, la_aligned_rh_layer_F_diff, ra_aligned_lh_layer_F_diff);
 F_ips = cat(1, la_aligned_lh_layer_F_diff, ra_aligned_rh_layer_F_diff);
 
@@ -78,6 +78,7 @@ colorbar;
 xlabel('Time (s)');
 ylabel('Model');
 title('Protected Exceedance Probabilities (PEP)');
+
 
 
 
