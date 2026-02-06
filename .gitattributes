@@ -1,2 +1,3 @@
-*.m linguist-language=MATLAB linguist-detectable=true
-*.py linguist-language=Python linguist-detectable=true
+*.m diff=MATLAB 
+*.py diff=Python
+*.md diff=markdown
