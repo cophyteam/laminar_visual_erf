@@ -1,7 +1,7 @@
 ## Overview
 
 This repository contains code for preprocessing and analysis of laminar MEG data,
-with a focus on V1 evoked response fields (ERFs), as reported in *Szul et al.*.
+with a focus on V1 evoked response fields (ERFs), as reported in *Szul et al.https://doi.org/10.1101/2025.05.28.656642*.
 
 ## Requirements
 - **lameg v0.1.0**
