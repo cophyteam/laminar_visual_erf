@@ -8,7 +8,9 @@ cd(toolbox_path);
 VBA_setup();
 cd(original_dir);
 
-patch_size = 25;
+%%
+
+patch_size = 1;
 load(sprintf('/home/membercophy/Matteo_M/V1_ERF/V1_ERF_F_diff/aligned_V1_ERF_FE_ps%d.mat', patch_size))
 
 data_struct.F_contra = cat(1, la_aligned_rh_layer_F_diff, ra_aligned_lh_layer_F_diff);
