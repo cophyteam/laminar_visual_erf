@@ -33,15 +33,12 @@ for i = 1:length(F_conditions)
     options.niter = 100;
     options.DisplayWin = 0; 
     options.families = {[1, 2, 3], [4], [5, 6]} ;
-    nSubjects   = size(F_matrix,1);   % 44 in ERF
-    nModels     = size(F_matrix,2);   % 6 layers
     nTimepoints = size(F_matrix,3);   % times
 
     EP  = zeros(6, nTimepoints);
     famEP = zeros(3, nTimepoints);
     p_H0 = zeros(1, nTimepoints); % BOR in time
     PEP  = zeros(3, nTimepoints);
-    a_model  = zeros(6, nTimepoints);
 
     for t = 1:nTimepoints
 
