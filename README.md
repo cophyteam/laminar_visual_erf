@@ -13,4 +13,4 @@ Access to the original dataset can be requested by contacting the authors of the
 
 ## Reference
 If you use this code, please cite:
-Szul et al. https://doi.org/10.1101/2025.05.28.656642
+Szul, M.J., Maspoli, M.G., Shelepenkov, D. et al. Multilayer MEG source modelling enables depth-resolved laminar inference in humans. Nat Commun 17, 10128 (2026). https://doi.org/10.1038/s41467-026-77782-9
