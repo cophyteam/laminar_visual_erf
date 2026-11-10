@@ -1,7 +1,7 @@
 ## Overview
 
 This repository contains code for preprocessing and analysis of laminar MEG data,
-with a focus on V1 evoked response fields (ERFs), as reported in *Szul et al.https://doi.org/10.1101/2025.05.28.656642*.
+with a focus on V1 evoked response fields (ERFs), as reported in *Szul, M.J., Maspoli, M.G., Shelepenkov, D. et al. Multilayer MEG source modelling enables depth-resolved laminar inference in humans. Nat Commun 17, 10128 (2026). https://doi.org/10.1038/s41467-026-77782-9*.
 
 ## Requirements
 - **lameg v0.1.0**
